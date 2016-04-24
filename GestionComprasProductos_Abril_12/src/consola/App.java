@@ -1,4 +1,9 @@
+/**
+ * PAQUETE CONSOLA = PARTE VISUAL
+ */
 package consola;
+
+import entidades.Producto;
 
 public class App {
 
@@ -6,5 +11,7 @@ public class App {
 		// TODO Auto-generated method stub
 		String cadena = "Hola, mundo!!"; 
 		System.out.println(cadena);
+		
+		Producto p1 = new Producto(); 
 	}
 }
