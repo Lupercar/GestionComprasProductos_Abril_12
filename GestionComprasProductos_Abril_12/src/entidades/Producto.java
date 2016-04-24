@@ -5,6 +5,18 @@ public class Producto {
 	private String nombre;
 	private double precio; 
 	
+	public Producto(){
+		this(0, "", 0); 
+	}
+	
+	
+	public Producto(int codigo, String nombre, double precio) {
+		setCodigo(codigo);
+		setNombre(nombre);
+		setPrecio(precio);
+	}
+
+
 	public int getCodigo(){
 		return this.codigo; 
 	}
