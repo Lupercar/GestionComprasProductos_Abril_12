@@ -35,5 +35,6 @@ public class App {
 		System.out.println("Compra - CANTIDAD: " + c1.getCantidad());
 		System.out.println("Compra - FECHA: " + c1.getFecha());
 		System.out.println("Compra - PRODUCTO: " + c1.getProducto());
+		System.out.println("Compra - PRECIO COMPRA: " + c1.getPrecioCompra()+"€");
 	}
 }
