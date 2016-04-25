@@ -6,7 +6,7 @@ public class Producto {
 	private double precio;
 
 	public Producto() {
-		this(0, "", 0);
+		this(0, "", 0.0);
 	}
 
 	public Producto(int codigo, String nombre, double precio) {

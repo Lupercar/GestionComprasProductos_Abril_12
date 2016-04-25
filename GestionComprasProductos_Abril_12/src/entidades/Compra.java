@@ -9,6 +9,7 @@ public class Compra {
 	private Producto producto;
 
 	public Compra() {
+		this(0, 0, new Date(), new Producto());
 	}
 
 	public Compra(int codigo, int cantidad, Date fecha, Producto producto) {
